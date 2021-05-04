@@ -1,6 +1,5 @@
 const Joi = require('joi');
 const express = require('express');
-const { validate } = require('joi/lib/types/object');
 const app = express();
 
 app.use(express.json());
